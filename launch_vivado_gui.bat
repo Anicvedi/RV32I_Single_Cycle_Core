@@ -5,7 +5,7 @@ REM Author: Anirudh Chaturvedi
 REM ==============================================================================
 
 set "VIVADO_BIN=C:\AMDDesignTools\2025.2\Vivado\bin\vivado.bat"
-set "PROJ_XPR=C:\temp\RV32I_Single_Cycle_Core\vivado_project\rv32i_single_cycle.xpr"
+set "PROJ_XPR=C:\temp\RV32I_Single_Cycle_Core\vivado\RV32I_Single_Cycle_Core.xpr"
 set "CREATE_TCL=C:\temp\RV32I_Single_Cycle_Core\scripts\create_vivado_project.tcl"
 
 if not exist "%VIVADO_BIN%" (
