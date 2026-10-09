@@ -11,6 +11,8 @@ vivado_project/*.hw/
 vivado_project/*.ip_user_files/
 vivado_project/*.sim/
 vivado_project/*.runs/
+*.dcp
+dfx_runtime.txt
 
 # LaTeX build files
 *.aux
