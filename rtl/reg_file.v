@@ -28,7 +28,7 @@ module reg_file (
     output wire [31:0] x11
 );
 
-    reg [31:0] regs [0:31];
+    (* keep = "true" *) reg [31:0] regs [0:31];
     integer i;
 
     // Asynchronous dual read ports: x0 is hardwired to 0

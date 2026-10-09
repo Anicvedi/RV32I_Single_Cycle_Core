@@ -31,10 +31,10 @@ module data_memory #(
 );
 
     // 4 physical byte banks to support individual byte lane enables
-    reg [7:0] bank0 [0:MEM_DEPTH-1];
-    reg [7:0] bank1 [0:MEM_DEPTH-1];
-    reg [7:0] bank2 [0:MEM_DEPTH-1];
-    reg [7:0] bank3 [0:MEM_DEPTH-1];
+    (* keep = "true" *) reg [7:0] bank0 [0:MEM_DEPTH-1];
+    (* keep = "true" *) reg [7:0] bank1 [0:MEM_DEPTH-1];
+    (* keep = "true" *) reg [7:0] bank2 [0:MEM_DEPTH-1];
+    (* keep = "true" *) reg [7:0] bank3 [0:MEM_DEPTH-1];
 
     wire [31:0] word_idx    = addr[31:2];
     wire [1:0]  byte_offset = addr[1:0];
