@@ -11,6 +11,11 @@ vivado_project/*.hw/
 vivado_project/*.ip_user_files/
 vivado_project/*.sim/
 vivado_project/*.runs/
+vivado/*.cache/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.sim/
+vivado/*.runs/
 *.dcp
 dfx_runtime.txt
 
@@ -18,3 +23,8 @@ dfx_runtime.txt
 *.aux
 *.out
 *.toc
+
+# Simulation artifacts
+sim_*
+*.vcd
+*.vvp
