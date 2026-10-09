@@ -3,10 +3,16 @@
 *.jou
 *.log
 *.str
-*.backup.log
-*.backup.jou
+*.pb
+*.wdb
+xsim.dir/
 vivado_project/*.cache/
 vivado_project/*.hw/
 vivado_project/*.ip_user_files/
 vivado_project/*.sim/
 vivado_project/*.runs/
+
+# LaTeX build files
+*.aux
+*.out
+*.toc
