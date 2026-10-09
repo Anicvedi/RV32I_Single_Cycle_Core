@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/temp/RV32I_Single_Cycle_Core/rtl/alu.v,1791527523,verilog,,C:/temp/RV32I_Single_Cycle_Core/testbench/tb_alu.v,C:/temp/RV32I_Single_Cycle_Core/rtl/rv32i_defines.v,alu,,,rtl,,,,,
+C:/temp/RV32I_Single_Cycle_Core/rtl/rv32i_defines.v,1791527226,verilog,,,,,,,,,,,,
+C:/temp/RV32I_Single_Cycle_Core/testbench/tb_alu.v,1791527257,verilog,,,C:/temp/RV32I_Single_Cycle_Core/rtl/rv32i_defines.v,tb_alu,,,rtl,,,,,

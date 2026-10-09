@@ -5,6 +5,7 @@
 // Author: Anirudh Chaturvedi (DESE, IISc Bangalore)
 // ==============================================================================
 
+`timescale 1ns / 1ps
 `include "rv32i_defines.v"
 
 module alu (
