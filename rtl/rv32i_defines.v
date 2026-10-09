@@ -72,4 +72,13 @@
 `define WB_PC4          2'b10
 `define WB_LUI          2'b11
 
+// -----------------------------------------------------------------------------
+// 5. Immediate Generator Source Selection (3-bit imm_src)
+// -----------------------------------------------------------------------------
+`define IMM_SRC_I       3'b000 // I-type (ADDI, LW, JALR)
+`define IMM_SRC_S       3'b001 // S-type (SW, SH, SB)
+`define IMM_SRC_B       3'b010 // B-type (BEQ, BNE, BLT)
+`define IMM_SRC_U       3'b011 // U-type (LUI, AUIPC)
+`define IMM_SRC_J       3'b100 // J-type (JAL)
+
 `endif
